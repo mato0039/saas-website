@@ -15,8 +15,7 @@ h1 {
   font-family: 'Bellota Text', cursive;
 }
 
-.nav,
-footer ul {
+.nav {
   list-style-type: none;
 }
 
