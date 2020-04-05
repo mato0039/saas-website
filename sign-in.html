@@ -18,8 +18,8 @@
         <a href="index.html"><h1 class="gutter text-center nina bold">chatterbot</h1></a>
       </div>
       <div class="unit xs-1 s-1 m-3-4 l-3-4">
-        <nav class="gutter text-right">
-          <ul class="nav list-group">
+        <nav role="navigation" id="nav" tabindex="0" class="gutter text-right">
+          <ul class="nav list-group list-group-inline">
             <li><a href="tour.html">Features</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="#">Products</a></li>
@@ -34,15 +34,13 @@
   <main>
     <section class="island pad-b-2">
       <h2 class="text-upper text-center pad-t-2">Sign in to your account</h2>
-      <form class="push" action="index.html" method="post">
+      <form class="push" action="https://formspree.io/mato0039@algonquinlive.com" method="POST">
+        <label class="micro" for="email">Username</label>
         <input class="push" type="email" name="email" id="email">
-        <label for="email"></label>
+        <label class="micro" for="google">Password</label>
         <input class="push" type="email" name="google" id="google">
-        <label for="google"></label>
-        <input class="push" type="email" name="google" id="google">
-        <label for="google"></label>
       </form>
-      <p class="milli text-center">Don't have an account? <a href="sign-up.html">Sign up!</a></p>
+      <p class="milli text-center">Don't have an account? <a class="text-decoration" href="sign-up.html">Sign up!</a></p>
     </section>
   </main>
 

@@ -15,10 +15,6 @@ h1 {
   font-family: 'Bellota Text', cursive;
 }
 
-.nav li {
-  display: inline-block;
-}
-
 .nav a,
 footer a {
   color: #000;
@@ -54,4 +50,12 @@ footer img {
 
 section input {
   max-width: 20rem;
+}
+
+@media screen only and (min-width: 25em) {
+
+  .nav li {
+    display: block;
+  }
+
 }
