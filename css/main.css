@@ -52,6 +52,10 @@ footer {
   background-color: #c4c4c4;
 }
 
+section input {
+  max-width: 20rem;
+}
+
 @media screen only and {
 
 }
