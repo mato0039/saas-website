@@ -13,17 +13,16 @@
 <body>
 
   <header role="banner" class="pad-t-1-2">
-    <div class="grid grid-middle">
+    <div class="grid grid-middle wrapper">
       <div class="unit xs-1 s-1 m-1-4 l-1-4">
         <a href="index.html"><h1 class="gutter text-center nina bold">chatterbot</h1></a>
       </div>
       <div class="unit xs-1 s-1 m-3-4 l-3-4">
         <nav role="navigation" id="nav" tabindex="0" class="gutter text-right">
           <ul class="nav list-group list-group-inline">
+            <li><a class="current" href="index.html">Home</a></li>
             <li><a href="tour.html">Features</a></li>
             <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Help</a></li>
             <li><a href="sign-in.html">Sign In</a></li>
           </ul>
         </nav>
@@ -33,44 +32,48 @@
 
   <main role="main" id="main" tabindex="0">
     <section id="support" tabindex="0" class="island push-1-2">
-      <div class="grid grid-middle">
+      <div class="grid grid-middle wrapper">
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
-          <h2 class="text-center">One-on-one support to create your own chatbot.</h2>
-          <p class="text-center">It's fast and free!</p>
-          <div class="text-center">
-            <span><a class="btn" href="#">Sign Up</a></span>
+          <h2 class="not-bold">One-on-one support to create your own chatbot.</h2>
+          <p class="">It's fast and free!</p>
+          <div class="">
+            <span><a class="btn" href="sign-up.html">Sign Up</a></span>
           </div>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter pad-t">
-          <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+          <img class="img-flex" src="images/phone.svg" alt="">
         </div>
       </div>
     </section>
 
     <section id="builder" tabindex="0" class="builder island">
-      <h2 class="text-center not-bold">Our Chatbot Builder</h2>
-      <img class="img-flex gutter push-1-2" src="images/placeholder-3by2.svg" alt="">
+      <div class="wrapper">
+        <h2 class="text-center bold">Our Chatbot Builder</h2>
+        <img class="img-flex gutter push-1-2" src="images/builder.svg" alt="">
+      </div>
     </section>
 
-    <section id="client-needs" tabindex="0" class="island">
-      <h3 class="text-center">Find out what your client needs with Chatterbot</h3>
-      <p class="text-center">Create your own chatbot hassle-free!</p>
-      <form class="push text-center" action="index.html" method="post">
-        <label for="email"></label>
-        <input type="email" name="" value="">
-      </form>
-      <div class="text-center">
-        <span><a class="btn" href="#">Sign Up</a></span>
+    <section id="client-needs" tabindex="0" class="island wrapper">
+      <div class="wrapper">
+        <h3 class="text-center">Find out what your client needs with Chatterbot</h3>
+        <p class="text-center">Create your own chatbot hassle-free!</p>
+        <form class="push center-content" action="index.html" method="post">
+          <label for="email"></label>
+          <input type="email" name="" value="">
+        </form>
+        <div class="text-center">
+          <span><a class="btn" href="sign-up.html">Sign Up</a></span>
+        </div>
       </div>
     </section>
 
     <section id="testimonial" tabindex="0" class="testimonial island">
-      <div class="grid grid-middle">
+      <div class="grid grid-middle wrapper">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-          <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+          <img class="img-flex" src="images/testimonial.jpg" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-          <p class="text-center push-1-2 peta">"Chatterbot has helped us grow our business. We know exactly what our customers need and how to interact with them."</p>
+          <p class="text-center push-1-2 peta">"Chatterbot has helped us grow our business. We know exactly what our customers need and how to better serve them."</p>
           <p class="text-center push-0">—Amazon</p>
         </div>
       </div>
@@ -78,56 +81,59 @@
   </main>
 
   <footer role="contentinfo" class="island">
-    <div class="grid text-center">
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="tour.html">Features</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Templates</a></li>
-          <li><a href="#">Customization</a></li>
+    <div class="wrapper">
+      <nav class="grid text-center">
+        <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group push">
+          <li class="bold"><a href="tour.html">Features</a></li>
+          <ul class="micro list-group push-0">
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">Customization</a></li>
+          </ul>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="pricing.html">Pricing</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Packages</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">FAQ</a></li>
+        <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group push">
+          <li class="bold"><a href="pricing.html">Pricing</a></li>
+          <ul class="micro list-group push-0">
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Products</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Why Chatterbot?</a></li>
-          <li><a href="#">Analytics</a></li>
+        <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group push">
+          <li class="bold"><a href="#">Products</a></li>
+          <ul class="micro list-group push-0">
+            <li><a href="#">Why Chatterbot?</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Help</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Training</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Live Chat</a></li>
+        <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group push">
+          <li class="bold"><a href="#">Help</a></li>
+          <ul class="micro list-group push-0">
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Training</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Live Chat</a></li>
+          </ul>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Legal</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Terms and Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+        <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group push">
+          <li class="bold"><a href="#">Legal</a></li>
+          <ul class="micro list-group push-0">
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
         </ul>
-      </ul>
-    </div>
-    <div class="grid pad-t-1-2 push-2 gutter-2">
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-        <img class="img-flex" src="images/facebook.svg" alt="">
+      </nav>
+      <div class="grid grid-middle pad-t-1-2 push gutter-2">
+        <div class="unit xs-1 s-1 m-3-5 l-3-5 push-1-2">
+          <small class="micro">Copyright ©2020 Chatterbot</small>
+        </div>
+        <div class="unit xs-1 s-1 m-1-5 l-1-5 push-1-2">
+          <img class="img-flex" src="images/facebook.svg" alt="">
+        </div>
+        <div class="unit xs-1 s-1 m-1-5 l-1-5 push-1-2">
+          <img class="img-flex" src="images/instagram.svg" alt="">
+        </div>
+
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-        <img class="img-flex" src="images/instagram.svg" alt="">
-      </div>
-    </div>
-    <div class="text-center">
-      <small class="micro">Copyright ©2020 Chatterbot</small>
     </div>
   </footer>
 

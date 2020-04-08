@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background-color: #e2e2e2;
+  background-color: #f2f2f2;
 }
 
 header a {
@@ -12,12 +12,20 @@ header a {
 }
 
 h1 {
-  font-family: 'Bellota Text', cursive;
+  color: #0048b9;
+  font-family: ;
+}
+
+h2,
+h3,
+p,
+footer small {
+   color: #021E73;
 }
 
 .nav a,
 footer a {
-  color: #000;
+  color: #021E73;
   text-decoration: none;
 }
 
@@ -26,22 +34,27 @@ footer a {
 }
 
 .nav a:hover {
-  background-color: #000;
+  background-color: #010440;
   color: #fff;
 }
 
 .nav .current {
   color: #fff;
-  background-color: #000;
+  background-color: #0048b9;
+}
+
+.btn {
+  background-color: #010440;
+  border: 3px solid #010440;
 }
 
 .builder,
 .testimonial {
-  background-color: #e2e2e2;
+  background-color: ;
 }
 
 footer {
-  background-color: #c4c4c4;
+  background-color: #f2f2f2;
 }
 
 footer img {
@@ -54,8 +67,6 @@ section input {
 
 @media screen only and (min-width: 25em) {
 
-  .nav li {
-    display: block;
-  }
+
 
 }
