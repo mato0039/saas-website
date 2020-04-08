@@ -13,7 +13,6 @@ header a {
 
 h1 {
   color: #0048b9;
-  font-family: ;
 }
 
 h2,
@@ -48,11 +47,6 @@ footer a {
   border: 3px solid #010440;
 }
 
-.builder,
-.testimonial {
-  background-color: ;
-}
-
 footer {
   background-color: #f2f2f2;
 }
@@ -63,10 +57,4 @@ footer img {
 
 section input {
   max-width: 20rem;
-}
-
-@media screen only and (min-width: 25em) {
-
-
-
 }
