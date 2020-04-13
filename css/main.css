@@ -81,6 +81,15 @@ section input {
   font-weight: lighter;
 }
 
+::placeholder {
+  color: #5a6b8c;
+  font-size: .75rem;
+}
+
+.free-trial {
+  background-color: rgba(90, 107, 140, 0.45);
+}
+
 .sign-in {
   background-color: #009DB9;
 }
