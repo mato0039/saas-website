@@ -4,6 +4,9 @@ html {
 
 header {
   background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header a {
@@ -18,13 +21,14 @@ h1 {
 h2,
 h3,
 p,
+caption,
 footer small {
-   color: #021E73;
+   color: #021e73;
 }
 
 .nav a,
 footer a {
-  color: #021E73;
+  color: #021e73;
   text-decoration: none;
 }
 
@@ -45,6 +49,7 @@ footer a {
 .btn {
   background-color: #010440;
   border: 3px solid #010440;
+  border-radius: 20px;
 }
 
 footer {
@@ -73,12 +78,23 @@ section input {
 }
 
 .card-title {
-  color: #fff;
-  background-color: #0048b9;
+  border-bottom: 2px solid #0048b9;
 }
 
 .card li {
+  color: #021e73;
   font-weight: lighter;
+}
+
+.pricing-btn {
+  background-color: #009DB9;
+  color: #fff;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+.pricing-btn:hover {
+  background-color: #021e73;
 }
 
 ::placeholder {
@@ -86,8 +102,19 @@ section input {
   font-size: .75rem;
 }
 
-.free-trial {
+.free-trial,
+.customization {
   background-color: rgba(90, 107, 140, 0.45);
+}
+
+.learn-more {
+  color: #021e73;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  color: #010440;
+  text-decoration: underline;;
 }
 
 .sign-in {
