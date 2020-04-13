@@ -52,9 +52,35 @@ footer {
 }
 
 footer img {
-  max-width: 2rem;
+  max-width: 3rem;
+}
+
+.social {
+  display: flex;
+}
+
+.social img {
+  padding: .25rem .5rem;
 }
 
 section input {
   max-width: 20rem;
+}
+
+.card {
+  border: 2px solid #0048b9;
+  max-width: 15rem;
+}
+
+.card-title {
+  color: #fff;
+  background-color: #0048b9;
+}
+
+.card li {
+  font-weight: lighter;
+}
+
+.sign-in {
+  background-color: #009DB9;
 }

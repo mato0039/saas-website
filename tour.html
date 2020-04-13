@@ -8,7 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&family=Spartan:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -35,11 +35,11 @@
       <h2 class="text-center pad-t gutter-2">Choose from one of our existing templates to create your own chatbot.</h2>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-          <img class="img-flex pad-b" src="images/placeholder-2by3.svg" alt="">
+          <img class="img-flex pad-b" src="images/classic.svg" alt="">
           <p class="text-center bold tera push-0">Classic</p>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-          <img class="img-flex pad-b" src="images/placeholder-2by3.svg" alt="">
+          <img class="img-flex pad-b" src="images/modern.svg" alt="">
           <p class="text-center bold tera push-0">Modern</p>
         </div>
       </div>
@@ -47,58 +47,64 @@
     <section id="customization" tabindex="0" class="island">
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-          <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+          <img class="img-flex island-2" src="images/support.svg" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
           <h2 class="text-upper not-bold exa text-center">Customization</h2>
-          <p class="text-center">We offer free customization services to meet your needs.</p>
+          <p class="text-center giga">We offer free customization services to meet your needs. Contact one of our customer service representatives for more information.</p>
         </div>
       </div>
     </section>
   </main>
 
   <footer role="contentinfo" class="island">
-    <div class="grid text-center">
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="tour.html">Features</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Templates</a></li>
-          <li><a href="#">Customization</a></li>
+    <div class="wrapper">
+      <nav class="grid text-center">
+        <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group push">
+          <li class="bold"><a href="tour.html">Features</a>
+            <ul class="micro list-group push-0 not-bold">
+              <li><a href="tour.html#templates">Templates</a></li>
+              <li><a href="tour.html#customization">Customization</a></li>
+            </ul>
+          </li>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Pricing</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Packages</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">FAQ</a></li>
+        <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group push">
+          <li class="bold"><a href="pricing.html">Pricing</a>
+            <ul class="micro list-group push-0 not-bold">
+              <li><a href="pricing.html#packages">Packages</a></li>
+              <li><a href="pricing.html#faq">FAQ</a></li>
+            </ul>
+          </li>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Products</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Why Chatterbot?</a></li>
-          <li><a href="#">Analytics</a></li>
+        <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group push">
+          <li class="bold"><a href="#">Products</a>
+            <ul class="micro list-group push-0 not-bold">
+              <li><a href="#">Why Chatterbot?</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+          </li>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Help</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Training</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Live Chat</a></li>
+        <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group push">
+          <li class="bold"><a href="#">Help</a>
+            <ul class="micro list-group push-0 not-bold">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Live Chat</a></li>
+            </ul>
+          </li>
         </ul>
-      </ul>
-      <ul class="unit xs-1 s-1 m-1-5 l-1-5 milli list-group">
-        <li class="bold"><a href="#">Legal</a></li>
-        <ul class="micro list-group push-0">
-          <li><a href="#">Terms and Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </ul>
-    </div>
-    <div class="text-center">
-      <small class="micro">Copyright ©2020 Chatterbot</small>
+      </nav>
+      <div class="grid grid-middle pad-t-1-2 push">
+        <div class="unit xs-1 s-1 m-3-4 l-3-4 push-1-2">
+          <small class="micro">Copyright ©2020 Chatterbot</small>
+        </div>
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 push-1-2 social">
+          <img class="img-flex" src="images/facebook.svg" alt="">
+          <img class="img-flex" src="images/instagram.svg" alt="">
+          <img class="img-flex" src="images/twitter.svg" alt="">
+        </div>
+
+      </div>
     </div>
   </footer>
