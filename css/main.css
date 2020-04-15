@@ -54,6 +54,10 @@ footer a {
 .btn {
   background-color: #010440;
   border: 3px solid #010440;
+  border-radius: 8px;
+  color: #fff;
+  padding: .25rem .75rem;
+  text-decoration: none;
 }
 
 .btn:hover {

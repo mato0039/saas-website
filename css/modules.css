@@ -1050,15 +1050,11 @@ button::-moz-focus-inner {
 
 button:focus,
 button:hover,
-.btn:focus {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
-}
-
+.btn:focus,
 .btn:hover {
   background-color: #0048b9;
   border: 3px solid #0048b9;
+  color: #fff;
 }
 
 button[disabled] {
