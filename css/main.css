@@ -32,9 +32,14 @@ footer small {
 }
 
 .nav a,
-footer a {
+footer a,
+.sign-link {
   color: #021e73;
   text-decoration: none;
+}
+
+.sign-link:hover {
+  text-decoration: underline;
 }
 
 .nav a {
@@ -54,6 +59,7 @@ footer a {
 .btn {
   background-color: #010440;
   border: 3px solid #010440;
+  border-radius: 10px;
 }
 
 .btn:hover {
@@ -129,6 +135,7 @@ td {
 
 ::placeholder {
   color: #5a6b8c;
+  font-size: .75rem;
 }
 
 .free-trial {
