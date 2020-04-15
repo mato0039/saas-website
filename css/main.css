@@ -1,5 +1,5 @@
 html {
-  font-family: 'Spartan', sans-serif;
+  font-family: Spartan, sans-serif;
 }
 
 header {
@@ -23,7 +23,7 @@ h3,
 p,
 caption,
 footer small {
-   color: #021e73;
+  color: #021e73;
 }
 
 .nav a,
@@ -49,7 +49,6 @@ footer a {
 .btn {
   background-color: #010440;
   border: 3px solid #010440;
-  border-radius: 20px;
 }
 
 footer {
@@ -73,16 +72,16 @@ section input {
 }
 
 .features {
-  background-color: #009db9;
+  background-color: rgba(90, 107, 140, .15);
 }
 
 .features caption {
-  color: #fff;
+  color: #021e73;
 }
 
 th,
 td {
-  color: #fff;
+  color: #021e73;
   border: none;
 }
 
@@ -97,7 +96,6 @@ td {
 
 .card li {
   color: #021e73;
-  font-weight: lighter;
 }
 
 .pricing-btn {
@@ -113,11 +111,10 @@ td {
 
 ::placeholder {
   color: #5a6b8c;
-  font-size: .75rem;
 }
 
 .free-trial {
-  background-color: rgba(90, 107, 140, 0.45);
+  background-color: rgba(90, 107, 140, .15);
 }
 
 .learn-more {
@@ -127,9 +124,5 @@ td {
 
 .learn-more:hover {
   color: #010440;
-  text-decoration: underline;;
-}
-
-.sign-in {
-  background-color: #009db9;
+  text-decoration: underline;
 }

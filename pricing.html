@@ -82,14 +82,18 @@
 
     <section id="trial" class="free-trial pad-b pad-t push-2" tabindex="0">
       <div class="wrapper">
-        <h2 class="text-center bold giga">Start your free trial today!</h2>
+        <h2 class="text-center bold">Start your free trial today!</h2>
         <form class="push center-content" action="index.html" method="post">
-          <label for="email"></label>
-          <input id="email" type="email" placeholder="Enter your email" name="email">
+          <div class="grid grid-middle center-content">
+            <div class="unit xs-1 s-1 m-3-4 m-3-4 gutter push-1-2">
+              <label for="email"></label>
+              <input id="email" type="email" placeholder="Enter your email" name="email" required>
+            </div>
+            <div class="unit xs-1 s-1 m-1-4 m-1-4 text-center right inline push-1-2">
+              <button class="btn" type="submit">Sign Up</button>
+            </div>
+          </div>
         </form>
-        <div>
-          <button class="btn text-center" type="submit">SIGN UP</button>
-        </div>
       </div>
     </section>
 
@@ -114,6 +118,7 @@
             <p>Customer feedback will be essential in order to measure your chatbot’s success. As well as customer feedback, your agents will be crucial in providing feedback.</p>
           </div>
         </div>
+      </div>
     </section>
 
   </main>
