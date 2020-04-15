@@ -115,14 +115,16 @@ td {
 }
 
 .pricing-btn {
-  background-color: #009db9;
-  color: #fff;
+  border: 3px solid #021e73;
+  color: #021e73;
   padding: .5rem 1rem;
   text-decoration: none;
 }
 
 .pricing-btn:hover {
-  background-color: #021e73;
+  background-color: #0048b9;
+  border: 3px solid #0048b9;
+  color: #fff;
 }
 
 ::placeholder {
@@ -157,7 +159,5 @@ td {
   .card {
     margin-right: 1rem;
   }
-
-
 
 }
